@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs681.hw03.ParetoCompLambdaTest
+Test: paretoComparatorAscendTestcase() took 0 milli sec(s)
+Test: car3DominationCountTestCase() took 1 milli sec(s)
+Test: car2DominationCountTestCase() took 1 milli sec(s)
+Test: car1DominationCountTestCase() took 0 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 4 milli sec(s)

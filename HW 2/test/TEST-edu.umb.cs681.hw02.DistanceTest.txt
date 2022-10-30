@@ -1,0 +1,11 @@
+Testcase: edu.umb.cs681.hw02.DistanceTest
+Test: getPoint1Point2Euclidean() took 6 milli sec(s)
+Test: lambdaValidation() took 1 milli sec(s)
+Test: matrixListOfPointsEuclidean() took 1 milli sec(s)
+Test: existingMatrixListOfPoints() took 0 milli sec(s)
+Test: getPoint1Point2Manhattan() took 0 milli sec(s)
+Test: existingDistancePoint1Point2() took 0 milli sec(s)
+Test: matrixListOfPointsManhattan() took 0 milli sec(s)
+Tests run: 7, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 18 milli sec(s)
+------------- Standard Output ---------------
+----expected->3.0--actual->3.0------------- ---------------- ---------------

@@ -1,0 +1,5 @@
+package edu.umb.cs681.primes;
+
+public class RunnablePrimeGenerator {
+
+}

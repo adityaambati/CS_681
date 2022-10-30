@@ -1,0 +1,14 @@
+package edu.umb.cs681.hw03;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class medianTestCase {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

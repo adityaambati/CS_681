@@ -1,0 +1,27 @@
+package edu.umb.cs681.hw01;
+
+public class DJIAObservable extends Observable<Double>{
+	private double quote;
+	
+	public void changeQuote(double q) {
+		quote = q;
+		notifyObservers(quote);
+	}
+	
+	public static void main(String args[]) {
+		DJIAObservable observable = new DJIAObservable();
+		observable.addObserver( new LineChartObserver() );
+		observable.addObserver( new TableObserver() );
+		//Observer class is the interface with update method as abtract method so LE will be linked to it.
+		Observer<Double> objToadd = ((Observable<Double> o, Double arg) -> {System.out.println("Event: " + o + ", Sender: " + arg);;});
+		observable.addObserver(objToadd);
+		//use a lambda expression to implement update() and pass it to removeObserver()
+	
+		observable.removeObserver( (Observable<Double> o, Double arg) -> {
+			System.out.println("DJIA remove le is " + arg);
+		});
+		observable.changeQuote(30000.44);
+		observable.changeQuote(30050.99);
+	}
+
+}
