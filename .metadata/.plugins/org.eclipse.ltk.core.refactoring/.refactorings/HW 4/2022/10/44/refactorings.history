@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;HW 4/test/src/edu/umb/cs681/hw03&apos; to &apos;hw04&apos;" description="Rename resource &apos;hw03&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="test/src/edu/umb/cs681/hw03" name="hw04" stamp="1666839524516" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;HW 4/hw03.xml&apos; to &apos;hw04.xml&apos;" description="Rename resource &apos;hw03.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hw03.xml" name="hw04.xml" stamp="1666839546690" updateReferences="true"/>
-</session>

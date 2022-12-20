@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 elements to &apos;HW 8&apos;&#x0A;- Original project: &apos;HW 2&apos;&#x0A;- Destination element: &apos;HW 8&apos;&#x0A;- Original elements:&#x0A;     hw02.xml&#x0A;     ivy.xml" description="Copy files" element1="hw02.xml" element2="ivy.xml" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667153447167" target="/HW 8" units="0" version="1.0"/>
-</session>
